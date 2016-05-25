@@ -1,0 +1,13 @@
+.content {
+  float: left;
+  width: 75%;
+  padding: 1em;
+  background-color: green;
+}
+
+.sidebar {
+  float: right;
+  width: 25%;
+  padding: 1em;
+  background-color: red;
+}

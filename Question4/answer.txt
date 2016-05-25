@@ -1,0 +1,12 @@
+Code Explanation: 
+1) It's an anonymous function
+2) It's written using OOP design pattern
+3) It has a private property called 'name' that can only be accessed or modified through its exposed functions
+4) The function self invokes/runs after it is interprated (without need of calling App(); )
+
+Why: 
+1) OOP pattern for reusibility of the code
+2) To save from spaghetti code
+3) For better readibility (human readable)
+4) Self describing code
+5) Modularity

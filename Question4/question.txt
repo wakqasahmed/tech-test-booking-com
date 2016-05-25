@@ -1,0 +1,15 @@
+Explain the code below and Why it is written in this way?
+
+var App = (function(){
+	var name = "John";
+	return {
+		getName: function() {
+			return name;
+		}
+
+		setName: function(newName) {
+			name = newName;
+		}
+	};
+
+}());

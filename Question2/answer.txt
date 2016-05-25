@@ -1,0 +1,7 @@
+1) test();
+2) window.test();
+3) this.test();
+4) var t = test; t();
+5) var f = function test() { console.log(this); }(); //immediate self invoking function
+
+In all the above cases, the value of 'this' would be 'window' object

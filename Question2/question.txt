@@ -1,0 +1,11 @@
+Ways to call a function
+
+You have a function in the global namespace:
+
+function test() {
+
+  console.log(this);
+
+} 
+
+Please list all possible ways to call this function and what the value of [this] will be in each case. Think about different ways to call a function that change the value of [this].
